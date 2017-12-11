@@ -21,6 +21,6 @@ print('')
 impact2whisky<-function(IF){
   euro <- 40*log10(2*(IF+1)) #Arbitrary conversion formula 
   euro <- round(euro,2)
-  print(paste('Impactfactor',IF,'corresponds to',euro,'euro for a bottle of whisky'))
+  print(paste('Impact factor',IF,'corresponds to',euro,'euro for a bottle of whisky'))
   print('Enjoy!')
 }
