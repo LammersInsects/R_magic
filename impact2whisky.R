@@ -15,7 +15,7 @@ print('A custom formula to convert the impact factor (IF) of a journal')
 print('to a price for a bottle of Scotch single malt whisky')
 print('in celebration of every first author paper')
 print('')
-print('usage: impact2whisky(IF)')
+print('USAGE: impact2whisky(IF)')
 print('')
 
 impact2whisky<-function(IF){
