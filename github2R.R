@@ -6,7 +6,6 @@
 install.packages('RCurl')
 source_https <- function(url, ...) {
   # load package
-  install.packages('RCurl')
   require(RCurl)
   
   # parse and evaluate each .R script
