@@ -9,12 +9,14 @@
 # for the specific language governing permissions and limitations
 # under the License.
 #
-# by: M. Lammers, 2017
+# by: Mark Lammers, 2017
 
 print('A custom formula to convert the impact factor (IF) of a journal')
 print('to a price for a bottle of Scotch single malt whisky')
 print('in celebration of every first author paper')
+print('')
 print('usage: impact2whisky(IF)')
+print('')
 
 impact2whisky<-function(IF){
   euro <- 40*log10(2*(IF+1)) #Arbitrary conversion formula 
